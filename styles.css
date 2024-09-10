@@ -1,0 +1,115 @@
+/* colors: #044389, #9B3D12, #A09A49 */
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "EB Garamond", serif;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+nav {
+    margin: 0;
+    background-color: #d46d6d;
+    position: sticky;
+    top: 0;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+.nav-item:hover, .nav-item:active {
+    background-color: #c13333;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.main-content {
+    margin: 40px 60px 40px 60px;
+    font-size: 1.1em;;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#vase {
+    max-height: 300px;
+}
+
+#statue {
+    max-height: 400px;
+}
+
+#sophocles {
+    max-height: 200px;
+}
+
+.img-container {
+    width: min-content;
+    float: right;
+    padding-left: 30px;
+}
+
+.img-description {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.citation {
+    display: inline-block;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+select {
+    height: 40px;
+}
